@@ -68,7 +68,7 @@ android {
     }
 
     dependencies {
-         implementation("com.ccavenue.indiasdk:sdk:2.1.0")
+         implementation("com.ccavenue.indiasdk:sdk:2.1.1")
     }
 
     testOptions {
