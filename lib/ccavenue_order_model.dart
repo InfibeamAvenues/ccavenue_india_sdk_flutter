@@ -4,14 +4,14 @@ class CCAvenueOrderModel {
   final String encRequest; 
   final String appColor;
   final String fontColor;
-  final String paymentEnvironment;   // "qa" or "production" or "uat"
+  final String paymentEnvironment;
 
   CCAvenueOrderModel({
     required this.accessCode,
     required this.encRequest,
     this.appColor = "#1F46BD",
     this.fontColor = "#FFFFFF",
-    this.paymentEnvironment = 'production', // Default to production as per Kotlin snippet defaults
+    this.paymentEnvironment = 'production',
   });
 
   Map<String, dynamic> toMap() {
@@ -24,6 +24,3 @@ class CCAvenueOrderModel {
     };
   }
 }
-
-
-// accesscode,encreq,fontcolor,appcolor 
