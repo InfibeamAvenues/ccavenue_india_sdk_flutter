@@ -986,6 +986,43 @@
         "children": [
           {
             "kind": "Var",
+            "name": "PAY",
+            "printedName": "PAY",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CCAvenueIndiaSDK.IntegrationType.Type) -> CCAvenueIndiaSDK.IntegrationType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntegrationType",
+                    "printedName": "CCAvenueIndiaSDK.IntegrationType",
+                    "usr": "s:16CCAvenueIndiaSDK15IntegrationTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CCAvenueIndiaSDK.IntegrationType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntegrationType",
+                        "printedName": "CCAvenueIndiaSDK.IntegrationType",
+                        "usr": "s:16CCAvenueIndiaSDK15IntegrationTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16CCAvenueIndiaSDK15IntegrationTypeO3PAYyA2CmF",
+            "mangledName": "$s16CCAvenueIndiaSDK15IntegrationTypeO3PAYyA2CmF",
+            "moduleName": "CCAvenueIndiaSDK"
+          },
+          {
+            "kind": "Var",
             "name": "ManageUPI",
             "printedName": "ManageUPI",
             "children": [
@@ -1019,43 +1056,6 @@
             "declKind": "EnumElement",
             "usr": "s:16CCAvenueIndiaSDK15IntegrationTypeO9ManageUPIyA2CmF",
             "mangledName": "$s16CCAvenueIndiaSDK15IntegrationTypeO9ManageUPIyA2CmF",
-            "moduleName": "CCAvenueIndiaSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "Normal",
-            "printedName": "Normal",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(CCAvenueIndiaSDK.IntegrationType.Type) -> CCAvenueIndiaSDK.IntegrationType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "IntegrationType",
-                    "printedName": "CCAvenueIndiaSDK.IntegrationType",
-                    "usr": "s:16CCAvenueIndiaSDK15IntegrationTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "CCAvenueIndiaSDK.IntegrationType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "IntegrationType",
-                        "printedName": "CCAvenueIndiaSDK.IntegrationType",
-                        "usr": "s:16CCAvenueIndiaSDK15IntegrationTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16CCAvenueIndiaSDK15IntegrationTypeO6NormalyA2CmF",
-            "mangledName": "$s16CCAvenueIndiaSDK15IntegrationTypeO6NormalyA2CmF",
             "moduleName": "CCAvenueIndiaSDK"
           },
           {
@@ -3070,154 +3070,161 @@
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5764,
+      "offset": 5735,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5873,
+      "offset": 5844,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5894,
+      "offset": 5865,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5920,
+      "offset": 5891,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5941,
+      "offset": 5912,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5996,
+      "offset": 5967,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6037,
+      "offset": 6008,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6263,
+      "offset": 6234,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6299,
+      "offset": 6270,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 41071,
+      "offset": 51328,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 46043,
+      "offset": 56300,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 49012,
+      "offset": 59269,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 51094,
+      "offset": 61351,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 62585,
+      "offset": 72842,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 69313,
+      "offset": 79570,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 95417,
+      "offset": 84512,
       "length": 3,
       "value": "\"N\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 95468,
+      "offset": 84563,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 95491,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 141413,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 141438,
+      "offset": 84586,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 145969,
+      "offset": 84610,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 126560,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 126585,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 131116,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 172648,
+      "offset": 157795,
       "length": 5,
       "value": "false"
     },
@@ -3413,77 +3420,77 @@
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/Payment Options\/UPI\/UPIViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1962,
+      "offset": 1981,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/Payment Options\/UPI\/UPIViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1993,
+      "offset": 2012,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/Payment Options\/UPI\/UPIViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2014,
+      "offset": 2033,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/Payment Options\/UPI\/UPIViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2041,
+      "offset": 2060,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/Payment Options\/UPI\/UPIViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2062,
+      "offset": 2081,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/Payment Options\/UPI\/UPIViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2086,
+      "offset": 2105,
       "length": 4,
       "value": "50.0"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/Payment Options\/UPI\/UPIViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2105,
+      "offset": 2124,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/Payment Options\/UPI\/UPIViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2120,
+      "offset": 2139,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/Payment Options\/UPI\/UPIViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2150,
+      "offset": 2169,
       "length": 1,
-      "value": "6"
+      "value": "5"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/Payment Options\/UPI\/UPIViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2177,
+      "offset": 2196,
       "length": 16,
       "value": "\"Other UPI Apps\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/Payment Options\/UPI\/UPIViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2218,
+      "offset": 2237,
       "length": 2,
       "value": "\"\""
     },
@@ -5758,44 +5765,51 @@
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/CCAvenueViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 420,
+      "offset": 414,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/CCAvenueViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 431,
-      "length": 6,
+      "offset": 425,
+      "length": 9,
       "value": "1"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/CCAvenueViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1704,
+      "offset": 1701,
       "length": 12,
       "value": "\"production\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/CCAvenueViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1753,
+      "offset": 1750,
       "length": 9,
       "value": "\"#1F46BD\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/CCAvenueViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1800,
+      "offset": 1797,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/CCAvenueViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2323,
+      "offset": 2322,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/CCAvenueViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2352,
+      "length": 5,
+      "value": "\"off\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Documents\/New Checkout\/BitBucket\/India SDK 2.0\/SDK\/CCAvenueSDK\/Login\/EditOneClickAddrController.swift",

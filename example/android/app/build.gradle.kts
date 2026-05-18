@@ -46,5 +46,5 @@ flutter {
 
 dependencies {
     // In Kotlin DSL, parenthesis and quotes are required
-    implementation("com.ccavenue.indiasdk:sdk:2.1.1")
+     implementation("com.ccavenue.indiasdk:sdk:2.1.3")
 }

@@ -46,6 +46,10 @@ dependencies {
 }
 ```
 
+### 2.3. Remove `android:taskAffinity=""` from `MainActivity`
+
+Please make sure that the attribute `android:taskAffinity=""` is **NOT** present inside your app's `MainActivity` declaration in your `AndroidManifest.xml` (`android/app/src/main/AndroidManifest.xml`). It can cause multitasking and window overlapping issues with the payment flow.
+
 ## 3. iOS Setup
 
 Run `pod install` in your `ios` directory:

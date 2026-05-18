@@ -1,11 +1,11 @@
 name: ccavenue_india_sdk_flutter
 description: "A Flutter plugin for integrating CCAvenue Payment Gateway in Android and iOS applications. Supports environments and customization."
-version: 2.1.1
+version: 2.1.3
 homepage: https://www.ccavenue.com/
 
 environment:
-  sdk: ^3.10.4
-  flutter: '>=3.3.0'
+  sdk: '>=2.12.0 <4.0.0'
+  flutter: '>=2.0.0'
 
 dependencies:
   flutter:

@@ -58,7 +58,7 @@
 		</data>
 		<key>CardSB.storyboardc/KbD-9d-cE3-view-P0m-YN-UAl.nib</key>
 		<data>
-		wHZaxb8i/uVBIUBloDiXTo7ba0w=
+		2CroOyh9gYuy5Uv7lxc/3b3nGbA=
 		</data>
 		<key>CardSB.storyboardc/SavedCardViewController.nib</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>Headers/CCAvenueIndiaSDK-Swift.h</key>
 		<data>
-		GDiMwRafl5O2XtMliu4rMq8SQi4=
+		hP+X0WXuwM0SUjhuyTr7VtDSxCM=
 		</data>
 		<key>Headers/CCAvenueSDK.h</key>
 		<data>
@@ -370,7 +370,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Mua/7yrUgRZXCJJgHguyjZHbBKM=
+		zOXRpfM7di+rnqn8oaDGzlGyWJY=
 		</data>
 		<key>LoginSB.storyboardc/6xs-B8-OKH-view-gm7-AO-r7j.nib</key>
 		<data>
@@ -482,43 +482,43 @@
 		</data>
 		<key>Modules/CCAvenueIndiaSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		+XF7so1par+Rqb11jEVDGyfpti4=
+		ngy0uSyauhSGel1tpFo5BNKOUT0=
 		</data>
 		<key>Modules/CCAvenueIndiaSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		98Co7pVb4OA6v9ykSeSPdB4SEX0=
+		QPq4OCpggASevkhYCRPFNFrD+A0=
 		</data>
 		<key>Modules/CCAvenueIndiaSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		yY0KZxhMyE8i/cltVJPhYk2UCkY=
+		L4DYaKx7fX4YiyAUvdKQybxEk+s=
 		</data>
 		<key>Modules/CCAvenueIndiaSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		98Co7pVb4OA6v9ykSeSPdB4SEX0=
+		QPq4OCpggASevkhYCRPFNFrD+A0=
 		</data>
 		<key>Modules/CCAvenueIndiaSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		DZG1O7UdEXyNpE3Ujkh/phya2K0=
+		Ut/PdVmYdm640qjA/SYAnU/AGmY=
 		</data>
 		<key>Modules/CCAvenueIndiaSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		+XF7so1par+Rqb11jEVDGyfpti4=
+		ngy0uSyauhSGel1tpFo5BNKOUT0=
 		</data>
 		<key>Modules/CCAvenueIndiaSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		6bqpXFQln4PRXn+ihCR5R4AENW8=
+		O8FLOWBsUFgbiwuxup0xSWv1S28=
 		</data>
 		<key>Modules/CCAvenueIndiaSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		9DcdGEMLGGWM0C0hGu3d5ZzRgRg=
+		G3uP/0N4jWUajwTigYEP3H/vMkY=
 		</data>
 		<key>Modules/CCAvenueIndiaSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		6bqpXFQln4PRXn+ihCR5R4AENW8=
+		O8FLOWBsUFgbiwuxup0xSWv1S28=
 		</data>
 		<key>Modules/CCAvenueIndiaSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ci7OYYHI0gn6hirm3VJZMGaltNQ=
+		ms1+4WDKOp4p7zJd0cujrr60YJ4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -642,7 +642,7 @@
 		</data>
 		<key>UPISB.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		qmPnSgxlcN4aZ0nIUocsRIx5Rhg=
+		TN4nwmlih/Pcz0J8klsGVtLgBp8=
 		</data>
 		<key>WalletSB.storyboardc/Info.plist</key>
 		<data>
@@ -805,7 +805,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eMJiXfTcO3yw1krCEhhCu4l15Z1oec+HeHz0wZsiOAY=
+			+R3zP+Qc/m6meG/VarrwsWyF1DLeyPnzfFljQWDj6SY=
 			</data>
 		</dict>
 		<key>CardSB.storyboardc/SavedCardViewController.nib</key>
@@ -903,7 +903,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gxFlFvA8I+5srGGHjj6gTfSRV5s90I0cHcic1U4rKW4=
+			CbKnvxuZSQtRhVx/pCiK8KKML7XNzA9oW2RH8toYIvw=
 			</data>
 		</dict>
 		<key>Headers/CCAvenueSDK.h</key>
@@ -1540,70 +1540,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LI++afcirFvcDAB2TnNme9xm4M49FisldzoH0hCLv10=
+			vCusSHLFdufRpXU/KIqfo/KZ/KavmXlOSURHLEObSCo=
 			</data>
 		</dict>
 		<key>Modules/CCAvenueIndiaSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RRp27F3o2q4Z1O0wFCqHI2QImSDLyLhQa6F/vSGbYN8=
+			4Dd5E4Lpxg/lhQXGpC4g+jVwgp6aMoYBE+PM/VCGzio=
 			</data>
 		</dict>
 		<key>Modules/CCAvenueIndiaSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V5EZ9sSHLLnnDSaRMhO9+a7yi1Yhc11F3x6DuRrlT4s=
+			f31vfLmlsGh9qTCZYG1HJsl6OqZivpk1KCtdIuAfSPI=
 			</data>
 		</dict>
 		<key>Modules/CCAvenueIndiaSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RRp27F3o2q4Z1O0wFCqHI2QImSDLyLhQa6F/vSGbYN8=
+			4Dd5E4Lpxg/lhQXGpC4g+jVwgp6aMoYBE+PM/VCGzio=
 			</data>
 		</dict>
 		<key>Modules/CCAvenueIndiaSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fN40kSSo/MoZ1rBslazOxSZgWonrTGPGt1Z9imyE+3w=
+			iB+UhTvA3YrV6mOdadMIv/nNOWHbWDzvY0IgV3MGqWg=
 			</data>
 		</dict>
 		<key>Modules/CCAvenueIndiaSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LI++afcirFvcDAB2TnNme9xm4M49FisldzoH0hCLv10=
+			vCusSHLFdufRpXU/KIqfo/KZ/KavmXlOSURHLEObSCo=
 			</data>
 		</dict>
 		<key>Modules/CCAvenueIndiaSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			je+HdZXdHxE177l1TAxGOXH8vJQK8fD46dW18ixY6Es=
+			Vbov25iivds8aUObs1PvOhk0jNn7FjOzpZWfC46TJ5Y=
 			</data>
 		</dict>
 		<key>Modules/CCAvenueIndiaSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nNcNmfBajHBtufGqb38vnv+CD0NC2ujvMROaI6ykrqk=
+			iHo9BJwvtleh5jyljzg2eVUuX0qQNYtZiEyk9miYxrg=
 			</data>
 		</dict>
 		<key>Modules/CCAvenueIndiaSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			je+HdZXdHxE177l1TAxGOXH8vJQK8fD46dW18ixY6Es=
+			Vbov25iivds8aUObs1PvOhk0jNn7FjOzpZWfC46TJ5Y=
 			</data>
 		</dict>
 		<key>Modules/CCAvenueIndiaSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4ei0xYREPbxi6ELu761Va1SJYxf8YSBd6QYBg6snAts=
+			2H5mu8ey+tZDGxtalsRaXf0xVgkjAdeoOvIeJKEoWGk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1820,7 +1820,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Uqwxva9gPBn/MYlB7PuuN2tlH9vK0cRLfUrbVTRNpx0=
+			f3/XV2HvGe2DYDuy+zs+0NwXZoZsuv39L6G7PyUwzvE=
 			</data>
 		</dict>
 		<key>WalletSB.storyboardc/Info.plist</key>
