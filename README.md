@@ -139,13 +139,13 @@ var order = CCAvenueOrder(
   );
 ```
 
-### 4.2 Pass the model to initTransaction method
+### 4.3 Pass the model to initTransaction method
 
 ```dart
 final response = await CCAvenueSDK().initTransaction(order);
 ```
 
-### 4.3 Sample Code
+### 4.4 Sample Code
 
 ```dart
   Future<void> initiatePayment() async {
