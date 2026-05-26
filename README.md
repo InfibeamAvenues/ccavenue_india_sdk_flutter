@@ -7,6 +7,8 @@ A Flutter plugin for integrating the CCAvenue Payment Gateway (India) on Android
 
 ## 1. Installation
 
+Add the ccavenue_india_sdk_flutter package to your Flutter project
+
 ```bash
 flutter pub add ccavenue_india_sdk_flutter
 ```
@@ -48,7 +50,9 @@ dependencies {
 
 ### 2.3. Remove `android:taskAffinity=""` from `MainActivity`
 
-Please make sure that the attribute `android:taskAffinity=""` is **NOT** present inside your app's `MainActivity` declaration in your `AndroidManifest.xml` (`android/app/src/main/AndroidManifest.xml`). It can cause multitasking and window overlapping issues with the payment flow.
+Please make sure that the attribute android:taskAffinity="" is NOT present inside your app's
+MainActivity declaration in your AndroidManifest.xml. Having this attribute can cause
+multitasking and window overlapping issues during the payment flow.
 
 ## 3. iOS Setup
 
@@ -112,12 +116,21 @@ If this key is not added, the Card Scan feature will remain disabled.
 
 ## 4. Usage
 
-### 4.1 Create the CCAvenueOrderModel
 
-Before starting a transaction, initialize the CCAvenueOrderModel with required order parameters:
+### 4.1 Import the SDK
+The merchant needs to import the SDK in the Dart file where payment needs to be
+initiated
 
 ```dart
-var order = CCAvenueOrderModel(
+import 'package:ccavenue_india_sdk_flutter/ccavenue_india_sdk_flutter.dart';
+```
+
+### 4.2 Create the CCAvenueOrderModel
+
+Before starting a transaction, initialize the CCAvenueOrder with required order parameters:
+
+```dart
+var order = CCAvenueOrder(
     accessCode: 'ABCD42EF06GH33IJKL',           
     encRequest: 'YOUR_ENCRYPTED_REQUEST',       
     paymentEnvironment: 'production',                  
@@ -126,10 +139,10 @@ var order = CCAvenueOrderModel(
   );
 ```
 
-### 4.2 Pass the model to initiatePayment method
+### 4.2 Pass the model to initTransaction method
 
 ```dart
-final response = await CcavenueIndiaSdk().initiatePayment(order);
+final response = await CCAvenueSDK().initTransaction(order);
 ```
 
 ### 4.3 Sample Code
@@ -137,7 +150,7 @@ final response = await CcavenueIndiaSdk().initiatePayment(order);
 ```dart
   Future<void> initiatePayment() async {
     // 1. Create the Order Model
-    var order = CCAvenueOrderModel(
+    var order = CCAvenueOrder(
       accessCode: 'ABCD42EF06GH33IJKL',           
       encRequest: 'YOUR_ENCRYPTED_REQUEST',       
       paymentEnvironment: 'production',                  
@@ -147,7 +160,7 @@ final response = await CcavenueIndiaSdk().initiatePayment(order);
 
     try {
       // 2. Initiate Payment
-      final response = await CcavenueIndiaSdk().initiatePayment(order);
+      final response = await CCAvenueSDK().initTransaction(order);
       print('Payment Response: $response');
     } catch (error) {
       print('Payment Error: $error');

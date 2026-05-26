@@ -32,12 +32,9 @@ public enum IntegrationType : Swift.Int {
 public struct CCAvenueOrder {
   public init(accessCode: Swift.String, encRequest: Swift.String, paymentEnvironment: Swift.String = "production", appColor: Swift.String = "#1F46BD", fontColor: Swift.String = "#FFFFFF")
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class CCAvenueViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor @preconcurrency convenience public init(ccAvenueOrder: CCAvenueIndiaSDK.CCAvenueOrder, andDelegate delegate: any CCAvenueIndiaSDK.CCAvenueDelegate)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers final public class CCAvenueSDK : ObjectiveC.NSObject {
+  public static func initTransaction(_ ccAvenueOrder: CCAvenueIndiaSDK.CCAvenueOrder, delegate: any CCAvenueIndiaSDK.CCAvenueDelegate, displayController: UIKit.UIViewController)
+  @objc override dynamic public init()
   @objc deinit
 }
 extension CCAvenueIndiaSDK.IntegrationType : Swift.Equatable {}

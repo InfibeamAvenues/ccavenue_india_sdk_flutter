@@ -3,8 +3,8 @@ import 'ccavenue_order_model.dart'; // Exporting this so user can access Model
 
 export 'ccavenue_order_model.dart';
 
-class CcavenueIndiaSdk {
-  Future<String?> initiatePayment(CCAvenueOrderModel order) {
+class CCAvenueSDK { 
+  Future<String?> initTransaction(CCAvenueOrder order) {
     if (order.encRequest.isEmpty) {
       throw Exception("EncRequest cannot be empty");
     }

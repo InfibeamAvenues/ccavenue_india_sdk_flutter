@@ -347,7 +347,7 @@ extern "C" {
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import Foundation;
-@import UIKit;
+@import ObjectiveC;
 #endif
 
 #endif // defined(__OBJC__)
@@ -376,15 +376,9 @@ SWIFT_PROTOCOL("_TtP16CCAvenueIndiaSDK16CCAvenueDelegate_")
 - (void)onTransactionResponse:(NSDictionary * _Nullable)jsonResponse;
 @end
 
-@class NSString;
-@class NSBundle;
-@class NSCoder;
-SWIFT_CLASS("_TtC16CCAvenueIndiaSDK22CCAvenueViewController")
-@interface CCAvenueViewController : UIViewController
-- (void)viewDidLoad;
-- (void)viewDidAppear:(BOOL)animated;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+SWIFT_CLASS("_TtC16CCAvenueIndiaSDK11CCAvenueSDK")
+@interface CCAvenueSDK : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #endif // defined(__OBJC__)

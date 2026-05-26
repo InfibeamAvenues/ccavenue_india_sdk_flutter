@@ -1,4 +1,4 @@
-class CCAvenueOrderModel {
+class CCAvenueOrder {
   // Required fields
   final String accessCode;
   final String encRequest; 
@@ -6,7 +6,7 @@ class CCAvenueOrderModel {
   final String fontColor;
   final String paymentEnvironment;
 
-  CCAvenueOrderModel({
+  CCAvenueOrder({
     required this.accessCode,
     required this.encRequest,
     this.appColor = "#1F46BD",

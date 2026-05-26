@@ -5,7 +5,6 @@ import CCAvenueIndiaSDK
 public class CcavenueIndiaSdkPlugin: NSObject, FlutterPlugin, CCAvenueDelegate {
     
     private var flutterResult: FlutterResult?
-    private var avenueVC: CCAvenueViewController?
     private var snapshotView: UIView?
 
     public static func register(with registrar: FlutterPluginRegistrar) {
@@ -82,15 +81,9 @@ public class CcavenueIndiaSdkPlugin: NSObject, FlutterPlugin, CCAvenueDelegate {
             window?.addSubview(snapshot)
             self.snapshotView = snapshot
 
-            let sdkVC = CCAvenueViewController(ccAvenueOrder: model, andDelegate: self)
-
-            sdkVC.modalPresentationStyle = .overCurrentContext
-            sdkVC.modalTransitionStyle   = .coverVertical
-            self.avenueVC = sdkVC
-
-            flutterVC.present(sdkVC, animated: true, completion: {
-                NSLog("✅ CCAvenue presented successfully")
-            })
+            NSLog("🚀 About to call CCAvenueSDK.initTransaction...")
+            CCAvenueSDK.initTransaction(model, delegate: self, displayController: flutterVC)
+            NSLog("✅ CCAvenueSDK.initTransaction called successfully")
         }
     }
 
@@ -101,18 +94,15 @@ public class CcavenueIndiaSdkPlugin: NSObject, FlutterPlugin, CCAvenueDelegate {
 
         DispatchQueue.main.async { [weak self] in
             guard let self = self else { return }
-            self.avenueVC?.dismiss(animated: true) {
-                self.snapshotView?.removeFromSuperview()
-                self.snapshotView = nil
-                self.avenueVC = nil
+            self.snapshotView?.removeFromSuperview()
+            self.snapshotView = nil
 
-                if let data = jsonResponse,
-                   let jsonData = try? JSONSerialization.data(withJSONObject: data),
-                   let jsonStr = String(data: jsonData, encoding: .utf8) {
-                    pendingResult?(jsonStr)
-                } else {
-                    pendingResult?(FlutterError(code: "PAYMENT_ERROR", message: "Failed", details: nil))
-                }
+            if let data = jsonResponse,
+               let jsonData = try? JSONSerialization.data(withJSONObject: data),
+               let jsonStr = String(data: jsonData, encoding: .utf8) {
+                pendingResult?(jsonStr)
+            } else {
+                pendingResult?(FlutterError(code: "PAYMENT_ERROR", message: "Failed", details: nil))
             }
         }
     }
