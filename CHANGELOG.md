@@ -12,3 +12,7 @@
 * BREAKING CHANGE: Removed unsupported legacy code and deprecated framework files.
 * Refactored core logic for better performance.
 * Note: Merchant are requested to use flutter plugin 2.x.x.
+
+
+## 2.1.4
+* Minor bug fixes.
