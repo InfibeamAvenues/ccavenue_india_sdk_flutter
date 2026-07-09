@@ -64,11 +64,11 @@ class CcavenueIndiaSdkPlugin : FlutterPlugin, MethodCallHandler, ActivityAware {
             
             intent.putExtra("accessCode", call.argument<String>("accessCode") ?: "")
             intent.putExtra("encRequest", call.argument<String>("encRequest") ?: "")
-          
+            intent.putExtra("encryptionMode", call.argument<String>("encryptionMode") ?: "aes128")
             intent.putExtra("paymentEnvironment", call.argument<String>("paymentEnvironment") ?: "production")
             intent.putExtra("appColor", call.argument<String>("appColor") ?: "#1F46BD")
             intent.putExtra("fontColor", call.argument<String>("fontColor") ?: "#FFFFFF")
-  
+            
             currentActivity.startActivity(intent)
 
         } else { 

@@ -68,9 +68,10 @@ android {
     }
 
     dependencies {
-         implementation("com.ccavenue.indiasdk:sdk:2.1.4")
+         implementation("com.ccavenue.indiasdk:sdk:2.1.5")
     }
- 
+
+
     testOptions {
         unitTests.all {
             useJUnitPlatform()

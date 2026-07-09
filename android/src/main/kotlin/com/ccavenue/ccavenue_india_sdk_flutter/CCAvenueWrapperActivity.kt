@@ -24,6 +24,7 @@ class CCAvenueWrapperActivity : AppCompatActivity(), CCAvenueTransactionCallback
         val appColor = intent.getStringExtra("appColor") ?: "#1F46BD"
         val fontColor = intent.getStringExtra("fontColor") ?: "#FFFFFF"
         val paymentEnvironment = intent.getStringExtra("paymentEnvironment") ?: "production"
+        val encryptionMode = intent.getStringExtra("encryptionMode") ?: "aes128"
 
         try {
             val orderDetails = CCAvenueOrder()
@@ -33,6 +34,8 @@ class CCAvenueWrapperActivity : AppCompatActivity(), CCAvenueTransactionCallback
             orderDetails.appColor = appColor
             orderDetails.fontColor = fontColor
             orderDetails.paymentEnvironment = paymentEnvironment
+            orderDetails.encryptionMode = encryptionMode
+
 
              CCAvenueSDK.initTransaction(this, orderDetails)
 

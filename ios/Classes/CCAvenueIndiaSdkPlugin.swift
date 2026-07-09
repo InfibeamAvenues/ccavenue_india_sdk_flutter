@@ -31,16 +31,8 @@ public class CcavenueIndiaSdkPlugin: NSObject, FlutterPlugin, CCAvenueDelegate {
         let appColor           = arguments["appColor"]           as? String ?? "#1F46BD"
         let fontColor          = arguments["fontColor"]          as? String ?? "#FFFFFF"
         let paymentEnvironment = arguments["paymentEnvironment"] as? String ?? "production"
-
-        // 🔍 DEBUG: print exact values going into SDK
-        NSLog("=== CCAvenue DEBUG ===")
-        NSLog("accessCode: '\(accessCode)'")
-        NSLog("encRequest length: \(encRequest.count)")
-        NSLog("encRequest prefix: '\(String(encRequest.prefix(40)))'")
-        NSLog("paymentEnvironment: '\(paymentEnvironment)'")
-        NSLog("appColor: '\(appColor)'")
-        NSLog("fontColor: '\(fontColor)'")
-        NSLog("=====================")
+        let encryptionMode     = arguments["encryptionMode"]     as? String ?? "aes128"    
+      
 
         guard !accessCode.isEmpty, !encRequest.isEmpty else {
             result(FlutterError(code: "INVALID_PARAMS", message: "empty params", details: nil))
@@ -49,8 +41,7 @@ public class CcavenueIndiaSdkPlugin: NSObject, FlutterPlugin, CCAvenueDelegate {
 
         self.flutterResult = result
 
-        // ✅ Wrap entire SDK init in a do-catch style defer
-        // Give the main runloop one full cycle to settle before touching SDK
+        
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) { [weak self] in
             guard let self = self else { return }
             
@@ -65,10 +56,11 @@ public class CcavenueIndiaSdkPlugin: NSObject, FlutterPlugin, CCAvenueDelegate {
                 encRequest: encRequest,
                 paymentEnvironment: paymentEnvironment,
                 appColor: appColor,
-                fontColor: fontColor
+                fontColor: fontColor,
+                encryptionMode: encryptionMode
             )
 
-            NSLog("✅ CCAvenueOrder created successfully")
+             
 
             // Take Flutter screenshot
             let renderer = UIGraphicsImageRenderer(bounds: flutterVC.view.bounds)
@@ -79,16 +71,14 @@ public class CcavenueIndiaSdkPlugin: NSObject, FlutterPlugin, CCAvenueDelegate {
             snapshot.frame = window?.bounds ?? .zero
             snapshot.contentMode = .scaleAspectFill
             window?.addSubview(snapshot)
-            self.snapshotView = snapshot
-
-            NSLog("🚀 About to call CCAvenueSDK.initTransaction...")
+            self.snapshotView = snapshot    
             CCAvenueSDK.initTransaction(model, delegate: self, displayController: flutterVC)
-            NSLog("✅ CCAvenueSDK.initTransaction called successfully")
+        
         }
     }
 
-    public func onTransactionResponse(_ jsonResponse: [AnyHashable : Any]?) {
-        NSLog("💳 Response: \(String(describing: jsonResponse))")
+    public func onTransactionResponse(_ jsonResponse: [String : Any]?) {
+        
         let pendingResult  = self.flutterResult
         self.flutterResult = nil
 
