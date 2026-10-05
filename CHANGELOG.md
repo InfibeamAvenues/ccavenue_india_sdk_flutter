@@ -20,3 +20,6 @@
 
 ## 2.1.5
 * Minor bug fixes.
+
+## 2.1.6
+* Minor bug fixes.
